@@ -1,0 +1,32 @@
+App\Entity\QuestionGroup:
+  question_group_1:
+    name: <name()>
+    description: <sentence(5, true)>
+    image: <imageUrl()>
+
+
+
+App\Entity\Scenario:
+  scenario_{1..6}:
+    title: <sentence(5, true)>
+    description: <sentence(10, true)>
+    image: <imageUrl()>
+    fach: <sentence(1, true)>
+    points: <numberBetween(5, 20)>
+    questionGroup: '@question_group_1'
+    questions:  ['@question_<current()>', '@question_2_<current()>']
+
+
+App\Entity\Question:
+  question_{1..6}:
+    title: <sentence(5, true)>
+    description: <sentence(10, true)>
+    image: <imageUrl()>
+    points: <numberBetween(5, 20)>
+    scenario: '@scenario_<current()>'
+  question_2_{1..6}:
+    title: <sentence(5, true)>
+    description: <sentence(10, true)>
+    image: <imageUrl()>
+    points: <numberBetween(5, 20)>
+    scenario: '@scenario_<current()>'

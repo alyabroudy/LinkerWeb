@@ -79,6 +79,6 @@
         }
     },
     "require-dev": {
-        "fzaninotto/faker": "^1.9"
+        "hautelook/alice-bundle": "^2.8"
     }
 }
