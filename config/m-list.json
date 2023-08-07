@@ -1,0 +1,35 @@
+{
+	  "playlist": [
+		{
+		  "title": "github-nsfw",
+		  "link": "https://iptv-org.github.io/iptv/index.nsfw.m3u"
+		},
+		{
+		  "title": "mix",
+		  "link": "https://drive.google.com/u/0/uc?id=iptv8&export=download"
+		},
+		{
+		  "title": "aflam",
+		  "link": "https://drive.google.com/u/0/uc?id=iptv8&export=download"
+		},
+		{
+		  "title": "github-free",
+		  "link": "https://github.com/Free-TV/IPTV/blob/master/playlist.m3u8"
+		},
+		{
+		  "title": "daily-arabic",
+		  "link": "https://iptv-list.live/download/421/12-16-22-iptv-list-1.m3u"
+		},
+		{
+		  "title": "airmax-ori",
+		  "link": "https://drive.google.com/u/0/uc?id=iptv8&export=download"
+		},{
+		  "title": "airmax-drive",
+		  "link": "https://drive.google.com/u/0/uc?id=iptv8&export=download"
+		},
+		{
+		  "title": "x-movie",
+		  "link": "https://drive.google.com/u/0/uc?id=iptv8&export=download"
+		}
+	  ]
+}
